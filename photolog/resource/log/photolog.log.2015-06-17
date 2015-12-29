@@ -1,0 +1,33 @@
+2015-06-15 20:01:00,767 - INFO - static folder : C:\Users\woojin\PycharmProjects\photolog\photolog\../static
+2015-06-15 20:01:00,767 - INFO - template folder : ../templates
+2015-06-15 20:01:02,878 - INFO - static folder : C:\Users\woojin\PycharmProjects\photolog\photolog\../static
+2015-06-15 20:01:02,880 - INFO - template folder : ../templates
+2015-06-15 20:01:25,099 - INFO - (GET)next_url is http://localhost:5000/
+2015-06-15 20:02:44,497 - DEBUG - None
+2015-06-15 20:02:55,250 - DEBUG - <User u'asheed77' u'asheed@gmail.com'>
+2015-06-15 20:02:55,413 - INFO - (GET)next_url is 
+2015-06-15 20:03:04,618 - INFO - (POST)next_url is 
+2015-06-15 20:43:50,838 - DEBUG - <User u'asheed77' u'asheed@gmail.com'>
+2015-06-15 21:01:51,361 - ERROR - Photolog error occurs : 400: Bad Request
+2015-06-16 10:42:29,098 - INFO - static folder : C:\Users\woojin\PycharmProjects\photolog\photolog\../static
+2015-06-16 10:42:29,098 - INFO - template folder : ../templates
+2015-06-16 20:02:28,947 - INFO - static folder : C:\Users\woojin\PycharmProjects\photolog\photolog\../static
+2015-06-16 20:02:28,947 - INFO - template folder : ../templates
+2015-06-16 20:02:34,776 - INFO - static folder : C:\Users\woojin\PycharmProjects\photolog\photolog\../static
+2015-06-16 20:02:34,776 - INFO - template folder : ../templates
+2015-06-16 20:03:08,594 - INFO - (GET)next_url is http://localhost:5000/
+2015-06-16 20:03:23,752 - INFO - (POST)next_url is http://localhost:5000/
+2015-06-16 20:05:35,782 - INFO - (GET)next_url is http://172.21.90.218:5000/
+2015-06-16 20:06:21,953 - DEBUG - None
+2015-06-16 20:08:00,273 - INFO - (GET)next_url is http://172.21.90.218:5000/photo/
+2015-06-16 20:08:04,415 - INFO - (POST)next_url is http://172.21.90.218:5000/photo/
+2015-06-16 20:08:12,176 - INFO - (POST)next_url is http://172.21.90.218:5000/photo/
+2015-06-16 20:08:28,532 - DEBUG - None
+2015-06-16 20:08:45,664 - DEBUG - <User u'dosp' u'h.hwang@samsung.com'>
+2015-06-16 20:08:45,694 - INFO - (GET)next_url is 
+2015-06-16 20:08:52,552 - INFO - (POST)next_url is 
+2015-06-17 14:59:15,194 - INFO - (GET)next_url is http://localhost:5000/
+2015-06-17 14:59:23,342 - INFO - (POST)next_url is http://localhost:5000/
+2015-06-17 14:59:47,252 - DEBUG - <User u'asheed77' u'asheed@gmail.com'>
+2015-06-17 16:03:41,676 - INFO - static folder : C:\Users\woojin\PycharmProjects\photolog\photolog\../static
+2015-06-17 16:03:41,676 - INFO - template folder : ../templates

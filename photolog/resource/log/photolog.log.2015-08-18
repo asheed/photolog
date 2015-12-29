@@ -1,0 +1,8 @@
+2015-08-18 14:18:02,532 - INFO - static folder : C:\Users\woojin\PycharmProjects\photolog\photolog\../static
+2015-08-18 14:18:02,542 - INFO - template folder : ../templates
+2015-08-18 14:18:06,358 - INFO - static folder : C:\Users\woojin\PycharmProjects\photolog\photolog\../static
+2015-08-18 14:18:06,358 - INFO - template folder : ../templates
+2015-08-18 14:18:20,980 - INFO - (GET)next_url is http://localhost:5000/
+2015-08-18 14:18:30,453 - INFO - (POST)next_url is http://localhost:5000/
+2015-08-18 20:09:42,996 - INFO - (GET)next_url is http://localhost:5000/
+2015-08-18 20:09:45,740 - INFO - (POST)next_url is http://localhost:5000/
