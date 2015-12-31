@@ -13,7 +13,7 @@
 import os
 from flask import render_template, request, redirect , url_for, session, \
                   current_app, jsonify
-from werkzeug import generate_password_hash
+from werkzeug.security import generate_password_hash
 from wtforms import Form, TextField, PasswordField, HiddenField, validators
 
 from photolog.photolog_logger import Log

@@ -13,7 +13,7 @@
 from flask import render_template, request, current_app, session, redirect \
                  , url_for
 from functools import wraps
-from werkzeug import check_password_hash
+from werkzeug.security import check_password_hash
 from wtforms import Form, TextField, PasswordField, HiddenField, validators
 
 from photolog.database import dao
