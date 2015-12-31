@@ -20,6 +20,6 @@ application = create_app()
 
 if __name__ == '__main__':
     print "starting test server..."
-
+    application.debug = True        # debug mode
     application.run(host='0.0.0.0', port=5000, debug=True, threaded=True)
 

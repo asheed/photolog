@@ -101,4 +101,3 @@ class RedisCacheSessionInterface(CacheSessionInterface):
         CacheSessionInterface.__init__(self, 
                                        cache, 
                                        prefix='redis_cache_session:')
-
