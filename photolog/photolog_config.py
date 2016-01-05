@@ -30,7 +30,7 @@ class PhotologConfig(object):
     LOG_LEVEL = 'debug'
     #: 디폴트 로그 파일 경로
     LOG_FILE_PATH = 'resource/log/photolog.log'
-    #: 디폴트 SQLAlchemy trace log 설정
+    #: 디폴트 SQLAlchemy trace log 설정, False 일경우 DB로그가 기록되지 않음.
     DB_LOG_FLAG = 'True'
     #: 트위터에 등록된 photolog 어플리케이션 인증키 (https://dev.twitter.com/)
     TWIT_APP_KEY    = 'Et2DH4lsyBTDdQhJvxMgSKKDq'

@@ -16,6 +16,14 @@ from flask import Flask, render_template, request, url_for
 
 
 def print_settings(config):
+    '''
+    설정한 정보를 로그에 출력하는 함수.
+    Args:
+        config: 설정 정보를 가지고 있는 객체
+
+    Returns: 없음
+
+    '''
     print '========================================================'
     print 'SETTINGS for PHOTOLOG APPLICATION'
     print '========================================================'
@@ -27,20 +35,52 @@ def print_settings(config):
     적용되므로 app 객체 생성시 등록해준다.
 '''
 def not_found(error):
+    '''
+    존재하지 않는 페이지 오류인 404에러 발생 시 호출되는 함수
+    Args:
+        error:
+
+    Returns: 404.html 뷰를 호출
+
+    '''
     return render_template('404.html'), 404
 
 def server_error(error):
+    '''
+    웹 애플리케이션 내부 오류인 500 에러 발생 시 호출되는 함수.
+    Args:
+        error:
+
+    Returns: 500.html 뷰를 호출.
+
+    '''
     err_msg = str(error)
     return render_template('500.html', err_msg=err_msg), 500
     
     
 def url_for_other_page(page):
+    '''
+    사진 목록의 페이징 처리 시 페이지에 대한 URL을 표시하는 함수
+    Args:
+        page:
+
+    Returns:
+
+    '''
     args = request.view_args.copy()
     args['page'] = page
     return url_for(request.endpoint, **args)
 
-    
+
 def create_app(config_filepath='resource/config.cfg'):
+    '''
+    포토로그 애플리케이션을 생성하는 함수.
+    Args:
+        config_filepath: 설정파일의 위치
+
+    Returns: Flask 객체
+
+    '''
     photolog_app = Flask(__name__)
 
     # 기본 설정은 PhotologConfig 객체에 정의되있고 운영 환경 또는 기본 설정을 변경을 하려면

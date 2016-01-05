@@ -3,7 +3,8 @@
     photolog.photolog_logger
     ~~~~~~~~
 
-    photolog 로그 모듈. 
+    photolog 로그 모듈.
+    파이썬 기본 로깅 모듈을 Wrapping한 모듈임.
     photolog 어플리케이션에서 사용할 공통 로그 객체를 생성.
 
     :copyright: (c) 2013 by 4mba.
@@ -67,7 +68,3 @@ class Log:
     @staticmethod
     def critical(msg):
         Log.__my_logger.critical(msg)
-
-
-
-        
